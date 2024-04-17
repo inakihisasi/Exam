@@ -46,5 +46,5 @@ public class Student implements Serializable {
 			this.school = school;
 		}
 
-
+		private String baseSql = "select * from student where school_cd=?";
 }
